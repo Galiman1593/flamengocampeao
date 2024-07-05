@@ -23,6 +23,6 @@ const quartaNota = 7
 
 const notaFinal = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4
 
-if (notaFinal >= 5) {
+if (notaFinal >= media) {
     console.log("você passou pitbull");
 } else console.log("tu não passou");
