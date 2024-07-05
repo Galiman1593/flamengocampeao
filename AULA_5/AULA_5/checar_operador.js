@@ -1,11 +1,12 @@
 // 1 diz qua foi o operador passado e na sua saída o que ele fez
 
-const operadorEscolido = "pogChamp";
+const operadorEscolido = "!==";
 
 if (operadorEscolido === "+") {
   console.log(
     "o operador de mais é responsavel por somar inteiros ou concatenar strings "
   );
+  //aritimeticos
 } else if (operadorEscolido === "-") {
   console.log("subtrai valores inteiros");
 } else if (operadorEscolido === "*") {
@@ -16,8 +17,16 @@ if (operadorEscolido === "+") {
   console.log("divide valores inteiros");
 } else if (operadorEscolido === "pogChamp") {
   console.log("omegalul total, wal");
-} else if (operadorEscolido === "==") {
+}
+else if (operadorEscolido === "%") {
+    console.log("operador de resto, faz a divisao mas exibe o resto ao em vez do resultado");
+}
+//coparação
+else if (operadorEscolido === "==") {
   console.log("operador de igualdade, compara de o VALOR é igual");
 } else if (operadorEscolido === "===") {
   console.log("Operador de idêntico, compara se o TIPO e o VALOR são iguais");
+}
+else if (operadorEscolido === "!==") {
+    console.log("operador de DIFERENTE, compara se é diferente do valor");
 }
