@@ -28,6 +28,14 @@ function CalcularAreaTriangulo(base, altura){
 
 console.log(CalcularAreaTriangulo(10, 10));
 
+//pesquisar mais uma forma geometrica da sua escolha para inserir no software matematicos de formas geometricas 
+
+function CalcularAreaPentagono(lado, apotema) {
+    return area =  5 * lado * apotema;
+  }
+  
+  console.log(CalcularAreaPentagono(30, 20));
+
 
 
 
